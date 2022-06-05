@@ -1,0 +1,52 @@
+{
+
+    "title": "Gitbook Use",
+    "description": "记录 GitBook 的配置和一些插件的使用",
+    "author": "Ike",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+"styles": {
+    "website": "styles/website.css",
+    "-ebook": "styles/ebook.css",
+    "-pdf": "styles/pdf.css",
+    "-mobi": "styles/mobi.css",
+    "-epub": "styles/epub.css"
+},
+
+"plugins": [
+     "-lunr",
+     "-search",
+     "search-plus@1.0.3",
+     "anchor-navigation-ex@1.0.14",
+     "splitter@0.0.8",
+     "expandable-chapters-small@0.1.7",
+     "chapter-fold@0.0.4",
+     "tbfed-pagefooter@0.0.1",
+     "donate@1.0.2"
+   
+    ],
+"pluginsConfig": {
+        "anchor-navigation-ex": {
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+
+        },    
+        "tbfed-pagefooter": {
+          "copyright": "©2019 Demon Network Tech Co., Ltd.",
+          "modify_label": "最后修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "donate": {
+          "wechat": "https://i.loli.net/2019/11/04/WoSAvn2TEeBr6xk.png",
+          "alipay": "https://i.loli.net/2019/11/04/69unlxVRF8c2S4O.png",
+          "title": "",
+          "button": "赞",
+          "alipayText": "支付宝打赏",
+          "wechatText": "微信打赏"
+        }
+    }
+
+}
